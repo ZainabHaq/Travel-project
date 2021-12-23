@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.body{
+  
+    height: 100vh;
+    width: 100%;
+    padding: 50px 100px;
+    
+    background-size: cover;
+   
+     background-image: url('../../image/services.jpg');
+}
+.head1{
+    
+    margin-top: 20px;
+    color: rgb(26, 4, 4);
+
+}
+.rowp{
+    display: flex;
+}
+.main{
+    
+    min-height: 350px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 100px;
+    
+}
+.service{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: transform .8s;
+}
+.service-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: #fff;
+    border: 5px solid #e2e7ec;
+}
+.service-logo img{
+    width: 90px;
+    margin-top: 20px;
+    transition: transform 1s;
+   
+}
+.service h4{
+    height:35px;
+    width: 80%;
+    background: #fff;
+    margin: 50px auto;
+    position: relative;
+}
+.service h4::after{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #fff,#032c55);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+.service h4::before{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right,#032c55, #fff);
+    position: absolute;
+    left: -5px;
+    bottom:  -5px;
+    z-index: -1;
+}
+
+.main:hover .service{
+      transform: translateY(-50px);
+      
+
+}
+
+.main:hover img{
+    transform: rotate(360deg);
+}

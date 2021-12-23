@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.videoTag{
+   
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit : cover ;
+    object-fit : cover;
+    
+}
+.containerx{
+   position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: 2;
+    display: block;
+}
+.containerx::before {
+    content : '';
+    position:absolute;
+    top : 0;
+    left: 0;
+    right : 0;
+    bottom : 0;
+    background: linear-gradient(180deg,rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%), linear-gradient(180deg, rgba(0,0,0,0.2) 0% , transparent 100%);
+    z-index : 2;
+    display: block;
+}
+.homecontent{
+    z-index: 3;
+    width: 1200px;
+    margin-top: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 24px;
+   
+  
+
+}
+.homecontent h1{
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(1.5rem, 6vw , 4rem);
+margin-bottom: 1.5rem;
+letter-spacing: 3px;
+padding: 0 1rem;
+font-weight: 500;
+margin-left: 200px;
+
+
+   
+}
+ @media screen and (max-width :1075px){
+    .homecontent h1{
+   
+    margin-left: 100px;
+    }
+}
+@media screen and (max-width :1075px){
+    .homecontent h1{
+   
+    margin-left: -100px;
+    }
+}
+@media screen and (max-width :968px){
+    .homecontent h1{
+   
+    margin-left: -250px;
+    }
+}
+@media screen and (max-width :735px){
+    .homecontent h1{
+    
+    margin-left: -400px;
+    }
+}
+@media screen and (max-width :658px){
+    .homecontent h1{
+    margin-left: -500px;
+    }
+}
+@media screen and (max-width :606px){
+    .homecontent h1{
+    margin-left: -600px;
+    }
+}
+@media screen and (max-width :830px){
+    .homecontent h1{
+    
+    margin-left: -400px;
+    }
+}
+@media screen and (max-width :612px){
+    .homecontent h1{
+      
+    margin-left: -600px;
+
+    }
+} 
+@media screen and (max-width :466px){
+    .homecontent h1{
+        
+    margin-left: -700px;
+    
+
+    }
+} 
+
+.homecontent p{
+    font-size: 20px;
+margin-bottom: 2rem;
+font-weight: 400;
+font-family : 'Poppins';
+    color: white;
+  
+    margin-left: 190px;
+
+
+}
+ @media screen and (max-width :1075px){
+    .homecontent p{
+    font-size: 20px;
+    margin-left: -100px;
+    }
+}
+@media screen and (max-width :968px){
+    .homecontent p{
+    font-size: 20px;
+    margin-left: -250px;
+    }
+}
+@media screen and (max-width :830px){
+    .homecontent p{
+    font-size: 18px;
+    margin-left: -400px;
+    }
+}
+@media screen and (max-width :735px){
+    .homecontent p{
+    font-size: 15px;
+    margin-left: -400px;
+    }
+}
+@media screen and (max-width :658px){
+    .homecontent p{
+    font-size: 15px;
+    margin-left: -500px;
+    }
+}
+@media screen and (max-width :606px){
+    .homecontent p{
+        font-size: 15px;
+    margin-left: -600px;
+    }
+}
+@media screen and (max-width :557px){
+    .homecontent p{
+        font-size: 14px;
+    margin-left: -700px;
+
+    }
+}
+@media screen and (max-width :612px){
+    .homecontent p{
+        font-size: 14px;
+    margin-left: -600px;
+
+    }
+}
+ 
+@media screen and (max-width :571px){
+    .homecontent p{
+        font-size: 14px;
+    margin-left: 100px;
+    width: 30%;
+
+    }
+}
+@media screen and (max-width :466px){
+    .homecontent p{
+        font-size: 14px;
+    margin-left: 100px;
+    width: 20%;
+
+    }
+}
+ 
